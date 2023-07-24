@@ -1,15 +1,20 @@
 {
   "seller": [
+    {
+      "name": "Admin Abc",
+      "email": "admin@gmail.com",
+      "password": "Password@1",
+      "id": 1
+    }
   ],
   "products": [
     {
-      "id": 1,
       "name": "Britannia Gobbles Bar Cake",
       "price": "10",
-      "color": "Pink",
-      "category": "Cake",
+      "category": "Cake bar",
       "description": "Britannia Gobbles Bar Cake Fruity Fun, 110 gm.",
-      "image": "https://m.media-amazon.com/images/I/61n0fnxZhUL.jpg"
+      "image": "https://m.media-amazon.com/images/I/61n0fnxZhUL.jpg",
+      "id": 1
     },
     {
       "id": 3,
@@ -30,15 +35,6 @@
       "image": "https://www.bigbasket.com/media/uploads/p/l/40247767-2_1-britannia-biscafe-super-thin-coffee-crackers-sugar-sprinkled-biscuits.jpg"
     },
     {
-      "id": 5,
-      "name": "Dairy Milk Silk",
-      "price": "200",
-      "color": "Black ",
-      "category": "Chocolate",
-      "description": "Any 3 Small Silk chocolate of your choice from Dairy Milk Silk Bubbly, Dairy Milk Silk Fruit & Nut, Dairy Milk Silk Oreo, Dairy Milk Silk Oreo Red Velvet, Dairy Milk Silk Hazelnut, Dairy Milk Silk Roast Almond, Dairy Milk Silk Mousse, and Dairy Milk Silk Plain Chocolate, and 4 Chocolates from Cadbury Dairy Milk.",
-      "image": "https://m.media-amazon.com/images/I/51wQg3GGwwL._SX679_.jpg"
-    },
-    {
       "name": "Orion Real Strawberry",
       "price": "10",
       "category": "Cake",
@@ -46,12 +42,39 @@
       "image": "https://www.jiomart.com/images/product/original/492578786/orion-real-strawberry-centre-filled-choco-pie-336-g-pack-of-12-product-images-o492578786-p591057865-0-202203150919.jpg?im=Resize=(1000,1000)",
       "id": 6
     }
-
   ],
   "users": [
+    {
+      "name": "Test User",
+      "email": "user@gmail.com",
+      "password": "Password@1",
+      "id": 1
+    }
   ],
   "cart": [
+    {
+      "name": "Britannia Milk Bikis",
+      "price": "₹100",
+      "color": "Brown",
+      "category": "Biscuits",
+      "description": "Britannia Milk Bikis Milk Cream Biscuits, 200g",
+      "image": "https://webmerx.sgp1.cdn.digitaloceanspaces.com/gronest/product_images/1672242470.40023490-2_8-britannia-milk-bikis-biscuits.webp",
+      "quantity": 1,
+      "productId": 3,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "name": "Britannia Gobbles Bar Cake",
+      "price": "10",
+      "category": "Cake bar",
+      "description": "Britannia Gobbles Bar Cake Fruity Fun, 110 gm.",
+      "image": "https://m.media-amazon.com/images/I/61n0fnxZhUL.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 1,
+      "id": 2
+    }
   ],
-  "orders": [
-  ]
+  "orders": []
 }
