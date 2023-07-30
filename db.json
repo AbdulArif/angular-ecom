@@ -68,9 +68,9 @@
   "orders": [
     {
       "email": "user@gmail.com",
-      "address": "Durgapur",
+      "address": "Durgpur-5,B-zone",
       "contact": "9007323389",
-      "totalPrice": 220,
+      "totalPrice": 300,
       "userId": 1,
       "id": 1
     }
