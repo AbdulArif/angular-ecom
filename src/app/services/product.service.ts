@@ -42,6 +42,11 @@ export class ProductService {
       `http://localhost:3000/products?q=${query}`
     );
   }
+  categorizeProduct(query: string) {
+    return this.http.get<product[]>(
+      `http://localhost:3000/products?q=${query}`
+    );
+  }
 
   localAddToCart(data: product) {
     let cartData = [];
