@@ -77,9 +77,16 @@ export class HeaderComponent implements OnInit {
     console.warn(val)
     this.route.navigate([`search/${val}`]);
   }
-  selectedValue: string = ''; // Variable to store the selected value
+  // selectedValue: string = ''; // Variable to store the selected value
   selectedCategory(category: string) {
-    this.selectedValue = category;
-    console.log(this.selectedValue);
+    if (category) {
+      this.product.categorizeProduct(category).subscribe((result) => {
+        console.log(result)
+        // if (result.length > 5) {
+        //   result.length = length
+        // }
+        // this.searchResult = result;
+      })
+    }
   }
 }
