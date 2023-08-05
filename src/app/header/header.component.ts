@@ -80,13 +80,15 @@ export class HeaderComponent implements OnInit {
   // selectedValue: string = ''; // Variable to store the selected value
   selectedCategory(category: string) {
     if (category) {
-      this.product.categorizeProduct(category).subscribe((result) => {
-        console.log(result)
-        // if (result.length > 5) {
-        //   result.length = length
-        // }
-        // this.searchResult = result;
-      })
+      this.route.navigate([`search/${category}`]);
+      // this.product.categorizeProduct(category).subscribe((result) => {
+      //   console.log(result)
+      //   this.route.navigate([`search/${category}`]);
+      //   // if (result.length > 5) {
+      //   //   result.length = length
+      //   // }
+      //   // this.searchResult = result;
+      // })
     }
   }
 }

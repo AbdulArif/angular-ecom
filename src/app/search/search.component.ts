@@ -12,15 +12,17 @@ export class SearchComponent implements OnInit {
   searchResult:undefined|product[]
   constructor(private activeRoute: ActivatedRoute, private product:ProductService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
+    this.getSearchProduct()
+  }
+
+  getSearchProduct()
+  {
     let query = this.activeRoute.snapshot.paramMap.get('query');
     console.warn(query);
     query && this.product.searchProduct(query).subscribe((result)=>{
-      this.searchResult=result;
-      
+      this.searchResult=result;     
     })
-    
-
   }
 
 }
