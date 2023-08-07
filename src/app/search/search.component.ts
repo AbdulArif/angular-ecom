@@ -10,7 +10,10 @@ import { ProductService } from '../services/product.service';
 export class SearchComponent implements OnInit {
 
   searchResult:undefined|product[]
-  constructor(private activeRoute: ActivatedRoute, private product:ProductService) { }
+  constructor(
+    private activeRoute: ActivatedRoute, 
+    private product:ProductService
+    ) { }
 
   ngOnInit(): void {    
     this.getSearchProduct()
