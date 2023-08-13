@@ -34,6 +34,7 @@ export class SellerHomeComponent implements OnInit {
   list() {
     this.product.productList().subscribe((result) => {
       if (result) {
+        console.log(result)
         this.productList = result;
       }
     });
