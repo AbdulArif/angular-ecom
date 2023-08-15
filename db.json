@@ -16,7 +16,7 @@
   "products": [
     {
       "name": "Britannia Gobbles Bar Cake",
-      "price": "100",
+      "price": "10",
       "category": "Cake",
       "description": "Britannia Gobbles Bar Cake Fruity Fun, 110 gm.",
       "image": "https://m.media-amazon.com/images/I/61n0fnxZhUL.jpg",
@@ -48,26 +48,13 @@
       "id": 1
     }
   ],
-  "cart": [
-    {
-      "name": "Britannia BisCafe",
-      "price": "29",
-      "color": "Brown",
-      "category": "Biscuits ",
-      "description": "Britannia BisCafe - Super Thin Coffee Crackers, Sugar Sprinkled Biscuits, 100 gm",
-      "image": "https://www.bigbasket.com/media/uploads/p/l/40247767-2_1-britannia-biscafe-super-thin-coffee-crackers-sugar-sprinkled-biscuits.jpg",
-      "quantity": 1,
-      "productId": 4,
-      "userId": 1,
-      "id": 1
-    }
-  ],
+  "cart": [],
   "orders": [
     {
       "email": "user@gmail.com",
-      "address": "Durgpur-5,B-zone",
+      "address": "KANKSA SEKH PARA",
       "contact": "9007323389",
-      "totalPrice": 300,
+      "totalPrice": 200,
       "userId": 1,
       "id": 1
     }
